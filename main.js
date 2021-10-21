@@ -23,19 +23,19 @@ function selectTab(index) {
     tabInstall.classList.remove("active");
     tabAction.classList.remove("active");
     tabSupport.classList.remove("active");
-    contentTabInstall.style.visibility = 'hidden';
-    contentTabAction.style.visibility = 'hidden';
-    contentTabSupport.style.visibility = 'hidden';
+    // contentTabInstall.style.visibility = 'hidden';
+    // contentTabAction.style.visibility = 'hidden';
+    // contentTabSupport.style.visibility = 'hidden';
     if (index == 0) {
         tabInstall.classList.add("active");
-        contentTabInstall.style.visibility = 'visible';
+        //contentTabInstall.style.visibility = 'visible';
     }
     else if (index == 1) {
         tabAction.classList.add("active");
-        contentTabAction.style.visibility = 'visible';
+        //contentTabAction.style.visibility = 'visible';
     }
     else if (index == 2) {
         tabSupport.classList.add("active");
-        contentTabSupport.style.visibility = 'visible';
+        //contentTabSupport.style.visibility = 'visible';
     }
 }
