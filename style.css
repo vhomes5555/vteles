@@ -1,0 +1,56 @@
+#logo {
+    max-height: 60px;
+    margin-left: 20px;
+}
+#navigation_bar {
+    overflow: hidden;
+    background-color: #ffffff;
+} 
+#navigation_bar a {
+    float: right;
+    display: block;
+    color: #04AA6D;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+#navigation_bar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+#navigation_bar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .content {
+    padding-top: 60px;
+}
+.install_platform {
+    display: flex;
+    justify-content: center;
+}
+.install_container {
+    display: block;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #dddddd;
+    justify-content: center;
+    text-align:center;
+}
+.install_link {
+    display: block;
+    font-size: large;
+}
+.install_icon {
+    height: 150px;
+}
+.content_tab_support {
+    text-align: center;
+}
