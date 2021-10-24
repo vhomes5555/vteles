@@ -8,35 +8,107 @@
 <body>
   <div id="navigation_bar">
     <img id="logo" src="assets/logo.png"/>
-    <a id="tab_support" href="javascript:selectTab(2)">Hỗ trợ</a>
-    <a id="tab_action" href="javascript:selectTab(1)">Các thao tác cơ bản</a>
-    <a id="tab_install" class="active" href="javascript:selectTab(0)">Cài đặt</a>
+    <a id="tab_support" href="javascript:selectTab(3)">Hỗ trợ</a>
+    <a id="tab_guide" href="javascript:selectTab(2)">Hướng dẫn</a>
+    <a id="tab_install" class="active" href="javascript:selectTab(1)">Cài đặt</a>
+    <a id="tab_introdution" href="javascript:selectTab(0)">Giới thiệu</a>
   </div>
   <div class="content">
-    <div id="content_tab_install">
+    <div id="content_tab_introdution" class="content_tab_introdution">
+      <div class="center_text">
+        Đang cập nhật
+      </div>
+    </div>
+    <div id="content_tab_install" class="content_tab_install">
+      <div class="center_text big_text">
+        Cảm ơn bạn đã sử dụng VTeles
+      </div>
+      <div class="center_text warning">
+        Chọn và tải link tương ứng với thiết bị của bạn
+      </div>
       <ul class="install_platform">
-        <li class="install_container">
+        <a class="install_container" href="https://appcenter-filemanagement-distrib4ede6f06e.azureedge.net/bbdeacb8-08fa-40d2-ab28-a2ab5cd798ce/VTeles_Android.apk?sv=2019-02-02&sr=c&sig=LaI17pFZif6Vqk1i9Q4aCYEwnQUkAf7YL2VA8VkH7oY%3D&se=2021-10-25T16%3A40%3A52Z&sp=r">
           <img class="install_icon" src="assets/qr_vteles_android.png"/>
-          <a class="install_link" href="https://shorturl.at/luKUZ">Android</a>
-        </li>
-        <li class="install_container">
+          <p>Android</p>
+        </a>
+        <a class="install_container" href="https://apps.apple.com/us/app/vteles/id1589056971">
           <img class="install_icon" src="assets/qr_vteles_ios.png"/>
-          <a class="install_link" href="https://apps.apple.com/us/app/vteles/id1589056971">iPhone</a>
-        </li>
-        <li class="install_container">
+          <p>iPhone</p>
+        </a>
+        <a class="install_container" href="https://drive.google.com/file/d/1PK8KC_6lithOp8y3wh3aj3I69NV0h66Z/view?usp=sharing">
           <img class="install_icon" src="assets/vteles_windows.png"/>
-          <a class="install_link" href="https://drive.google.com/file/d/1PK8KC_6lithOp8y3wh3aj3I69NV0h66Z/view?usp=sharing">Windows</a>
-        </li>
-        <li class="install_container">
+          <p>Windows</p>
+        </a>
+        <a class="install_container" href="https://drive.google.com/file/d/1p_f0U1Pv4ixVb2a74mo8YTo3E--j9XXl/view?usp=sharing">
           <img class="install_icon" src="assets/vteles_macos.png"/>
-          <a class="install_link" href="https://drive.google.com/file/d/1p_f0U1Pv4ixVb2a74mo8YTo3E--j9XXl/view?usp=sharing">MacOS</a>
-        </li>
+          <p>MacOS</p>
+        </a>
       </ul>
+      <div class="center_text">
+        VTeles hỗ trợ các nền tảng điện thoại và máy tính.
+        <br/>
+        Tuy nhiên để tiện cho việc sử dụng, khuyên dùng các phiên bản điện thoại.
+        <div class="center_text warning">
+          Phiên bản máy tính sẽ hoạt động nặng nề và làm máy tính bị chậm,
+          <br/>
+          Do đó chỉ nên sử dụng để tải data số điện thoại.
+        </div>
+      </div>
     </div>
-    <div id="content_tab_action">
+    <div id="content_tab_guide" class="content_tab_guide">
+      <div class="big_text">
+        1. Các phân cấp và vai trò trong hệ thống VTeles
+      </div>
+      <div>
+        - Admin : giám sát và điều hành hoạt động hệ thống.
+        <br/>
+        - Ban Giám Đốc, Kế toán, Hành chính : theo dõi hoạt động telesale của công ty.
+        <br/>
+        - TPKD : tạo tài khoản cho NVKD, theo dõi hoạt động telesale của phòng mình.
+        <br/>
+        - NVKD : tạo tài khoản cho telesale dưới quyền, quản lý data, theo dõi hoạt động telesale của phòng mình.
+        <br/>
+        - Telesale : gọi điện, báo cáo kết quả.
+      </div>
+      <br/>
+      <div class="center_text warning">
+        Các hướng dẫn tiếp sẽ chỉ tập trung vào NVKD do các thao tác quản lý chủ yếu nằm ở NVKD.
+      </div>
+      <br/>
+      <div class="big_text">
+        2. Tạo và quản lý Telesale
+      </div>
+      <div class="horizontal">
+        <img class="guide_image" src="assets/guide_1.jpg"/>
+        <img class="guide_image" src="assets/guide_2.jpg"/>
+      </div>
+      <br/>
+      <div class="big_text">
+        3. Tạo và quản lý Data
+      </div>
+      <div class="horizontal">
+        <img class="guide_image" src="assets/guide_1.jpg"/>
+        <img class="guide_image" src="assets/guide_2.jpg"/>
+      </div>
+      <br/>
+      <div class="big_text">
+        4. Tạo và quản lý Dự án
+      </div>
+      <div class="horizontal">
+        <img class="guide_image" src="assets/guide_1.jpg"/>
+        <img class="guide_image" src="assets/guide_2.jpg"/>
+      </div>
+      <br/>
+      <div class="big_text">
+        5. Quản lý Báo cáo
+      </div>
+      <div class="horizontal">
+        <img class="guide_image" src="assets/guide_1.jpg"/>
+        <img class="guide_image" src="assets/guide_2.jpg"/>
+      </div>
     </div>
-    <div id="content_tab_support">
-      <div class="content_tab_support">
+    <div id="content_tab_support" class="content_tab_support">
+      <div class="center_text">
         VTeles hiện vẫn đang trong quá trình phát triển.
         <br/>
         Nếu có góp ý hoặc gặp phải lỗi trong quá trình sử dụng, vui lòng liên hệ.

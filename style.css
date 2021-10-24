@@ -40,17 +40,37 @@
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-    background-color: #dddddd;
+    background-color: #eeeeee;
     justify-content: center;
     text-align:center;
-}
-.install_link {
-    display: block;
-    font-size: large;
 }
 .install_icon {
     height: 150px;
 }
+.guide_image {
+    max-height: 450px;
+}
+.content_tab_introdution {
+    display: none;
+}
+.content_tab_install {
+    display: block;
+}
+.content_tab_guide {
+    display: none;
+}
 .content_tab_support {
+    display: none;
+}
+.center_text {
     text-align: center;
+}
+.warning {
+    color: #ff0000;
+}
+.big_text {
+    font-size: xx-large;
+}
+.horizontal {
+    flex-direction: row;
 }
