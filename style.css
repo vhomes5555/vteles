@@ -47,6 +47,9 @@
 .install_icon {
     height: 150px;
 }
+.guide_image_0 {
+    max-height: 300px;
+}
 .guide_image {
     max-height: 450px;
 }
